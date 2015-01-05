@@ -1,11 +1,12 @@
 #pragma once
 #include<iostream>
+#include<algorithm>
 #include "MyRandom.h"
 #define _USE_MATH_DEFINES
 using namespace std;
 
 const int LOOP=1;	//プログラム実行回数
-const int PAIR=10;
+const int PAIR=6;
 const int SCALE_LENGTH=12;	//1オクターブの音数
 const int QUALITY_LENGTH=2;	//MAJ, min
 const int ADDITIVE_QUALITY_LENGTH=8;	//付加音が関わるコードの種類

@@ -157,7 +157,7 @@ void GAForMusic::initializeGenes(void){
 				durationFreq[i][j][k]=sum;
 			}
 		}
-	}
+	}															
 	for(int i=0;i<popSize;i++){
 		int prevKey=SCALE_LENGTH*5;
 		for(int j=0;j<geneSize;j++){

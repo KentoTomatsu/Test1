@@ -61,7 +61,8 @@ string FileManager::getFileName(FILETYPE fileType){
 	while(true){
 		value << i;
 		ifstream ifs(fileHead+value.str()+extension);
-		if(ifs==NULL){
+		//if(ifs==NULL){
+		if (!ifs){
 			fileName=fileHead+value.str()+extension;
 			break;
 		}

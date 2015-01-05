@@ -279,7 +279,7 @@ Music MusicManager::extractNote(MIDIData *data){
 	int firstKey=0;
 	int prevKey=0;
 	int startTime=0;
-	int baseBeat=MIDIData_GetTimeResolution(data)/4;
+	int baseBeat=MIDIData_GetTimeResolution(data)/4; //16•ª‰¹•„‚Ìtick‚ğæ“¾‚µ‚Ä‚¢‚éH
 
 	int minTime=1000000;
 	int prevTime=0;

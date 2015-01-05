@@ -53,7 +53,7 @@ private:
 	double **detailGlobalSimilarity;
 	int ***baseGenotype;
 	int **baseIndividual;
-	int baseLength;
+	int baseLength;//ƒx[ƒX‹È‚Ì”
 	int *baseMusicLength;
 	int baseIndividualLength;
 	double **baseDetailFitness;

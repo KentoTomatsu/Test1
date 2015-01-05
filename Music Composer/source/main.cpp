@@ -10,7 +10,7 @@
 int main(){
 	PropertiesManager properties;
 	Measure measure;
-	int musicLength[PAIR]={1,2,1,1,1,2,2,2,2,2};
+	int musicLength[PAIR]={1,1,1,1,1,1};
 	string fileName[PAIR][4];
 	//fileName[0][1]="jingle_bells";
 	//fileName[0][1]="Deck_the_Halls";
@@ -21,7 +21,8 @@ int main(){
 	//fileName[1][0]="entertainer_chorus_low";
 	//fileName[0][0]="jingle_bells_chorus";
 	//fileName[0][1]="Deck_the_Halls";
-	fileName[0][0]="entertainer_chorus_low";
+
+	/*fileName[0][0]="entertainer_chorus_low";
 	fileName[1][0]="jingle_bells_chorus";
 	fileName[1][1]="Deck_the_Halls";
 	fileName[2][0]="jingle_bells_chorus";
@@ -36,7 +37,16 @@ int main(){
 	fileName[8][0]="jingle_bells_chorus";
 	fileName[9][0]="Deck_the_Halls";
 	fileName[8][1]="little_hans";
-	fileName[9][1]="little_hans";
+	fileName[9][1]="little_hans";*/
+	fileName[0][0] = "Major1";
+	fileName[1][0] = "Major2";
+	fileName[2][0] = "Major3";
+	fileName[3][0] = "Minor1";
+	fileName[4][0] = "Minor2";
+	fileName[5][0] = "Minor3";
+
+
+
 	/*fileName[1][0]="entertainer_chorus_low";
 	fileName[1][1]="little_hans";
 	fileName[2][0]="jingle_bells_chorus";

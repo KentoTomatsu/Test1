@@ -8,7 +8,7 @@ class Composer
 public:
 	Composer(void);
 	~Composer(void);
-	void modulateMusic(Music *music,int length);	//music[0]のスケールに合わせる
+	void modulateMusic(Music *music,int length);	//CMajまたはAmのスケールに合わせる//music[0]のスケールに合わせる
 	void mixByGA(Music *music,int length);	//GAによる合成
 	Music *getPreMix();	//初期個体の獲得
 	Music *getMixed();	//最終個体の獲得

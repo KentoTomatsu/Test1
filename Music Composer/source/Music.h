@@ -45,13 +45,13 @@ public:
 	unsigned char *getTimeSignature();
 	unsigned char getTimeSignature(TIME_SIGNATURE index);
 private:
-	int scale;
+	int scale;//Major Or Minor
 	KEY tonic;//曲のトニック
 	Note *head;
 	Note *note;
 	MusicChord *chord;
-	int noteLength;
-	int basicNoteLength;
+	int noteLength;//ノートの数
+	int basicNoteLength;//16分基準での曲の長さ
 	int tempo;
 	int chordLength;
 	unsigned char *timeSignature;
